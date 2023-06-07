@@ -14,7 +14,7 @@ const data = {
 
 let content = (
 	<div className="card m-5">
-		<img alt="Card image cap" src={data.image} className="card-img-top" />
+		<img alt="Card image-top" src={data.image} className="card-img-top" />
 		<div className="card-body">
 			<h5 className="card-title">{data.cardTitle}</h5>
 			<p className="card-text">{data.cardDescription}</p>
